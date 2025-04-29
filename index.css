@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: pink;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: burlywood;
+}
+
+h1 {
+  color: grey;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.card {
+  background: whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+  width: 450px;
+  height: 710px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  display: block;
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid,beige;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px;
+  width: 100%;
+  background-color: pink;
+  color: bisque;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color:blanchedalmond;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+ul li {
+  background: wheat;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color:burlywood;
+}
+
+#contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#contact-table th,
+#contact-table td {
+  padding: 10px;
+  border: 1px solid bisque;
+  text-align: left;
+}
+
+#contact-table th {
+  background-color: white;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: grey;
+  font-size: 0.9em;
+}
